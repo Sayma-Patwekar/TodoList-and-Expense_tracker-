@@ -1,0 +1,104 @@
+body{
+  font-size:25px;
+  background-image: url('img3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  width:50%;
+  margin:30px auto;
+  text-align: center;
+  color:black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border:3px solid black;
+  border-radius: 20px;
+}
+
+form{
+  width:50%;
+  margin:30px auto;
+  border-radius: 5px;
+  padding:10px;
+  border:2px solid black;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+form p{
+  color:red;
+  margin:0px;
+}
+
+.task_input{
+  width:83%;
+  height:40px;
+  padding:10px;
+  background-color:black;
+  border:2px solid black;
+  border-radius:5px;
+  font-size: 16px;
+  color:white;
+}
+::placeholder{
+  color:white;
+}
+.task_btn{
+  height:40px;
+  background-color:black;
+  color:white;
+  border:2px solid black;
+  border-radius: 5px;
+  padding:5px 20px;
+  font-size: 16px;
+}
+
+.task_btn:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+table{
+  width:50%;
+  margin:30px auto;
+  border-collapse: collapse;
+}
+
+th,td{
+  border-bottom:2px solid black;
+  padding:20px;
+}
+
+th{
+  font-size:20px;
+  color:black;
+  background-color:rgba(255,255,255,0.5);
+  text-align: left;
+}
+
+td{
+  color:black;
+  font-size: 18px;
+  text-align:left;
+}
+
+.delete{
+  text-align:left;
+  padding-left: 50px;
+}
+
+.delete a{
+  color:black;
+  padding:1px 6px;
+  border-radius: 3px;
+  text-decoration:none;
+}
+
+.strikethrough:checked + .strikeThis {
+  text-decoration: line-through
+}
+
+input[type="text"]{
+  color:white;
+}
+input[type="checkbox"]{
+  padding-right: 200px;
+}

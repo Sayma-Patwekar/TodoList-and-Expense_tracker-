@@ -1,0 +1,119 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/7d/4d/ac/7d4dac5e7dfe5c34cd2e097e7ce37adc.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.expense-text{
+    margin: 0;
+    position: absolute;
+    right:100px;
+    top: 50%;
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    height: 200px;
+    width: 500px;
+    margin-left: 200px;
+}
+.todo-text{
+    margin: 0;
+    left:100px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    height: 200px;
+    width: 500px;
+    margin-right: 1200px;
+}
+
+.main-text{
+    font-family: 'Source Serif Pro', serif;
+    color: whitesmoke;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height:35px;
+    text-align: center;
+    text-decoration:none;
+}
+
+.btn {
+    position: absolute;
+    -ms-transform: translateX(50%);
+  transform: translateX(50%);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 0.6em;
+    color: whitesmoke;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color:black;
+    outline: 0;
+  }
+
+  .myButton {
+    border-color:white;
+    border-radius: 0;
+    color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  .myButton:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background:whitesmoke;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+  .myButton:hover {
+    color:black;
+  }
+  .myButton:hover:after {
+    width: 110%;
+  }
+  a{
+      text-decoration: none;
+  }
